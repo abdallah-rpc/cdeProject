@@ -5,7 +5,7 @@
                     <div class="nav-inner">
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="">
+                            <a class="navbar-brand" href="{{url('/EN')}}">
                               <img src="{{asset('assets/images/logo/logo-cde-r.png')}}">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
