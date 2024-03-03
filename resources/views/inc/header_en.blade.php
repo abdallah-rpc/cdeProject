@@ -6,7 +6,7 @@
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="">
-                              <img src="assets/images/logo/logo-cde-r.png">
+                              <img src="{{asset('assets/images/logo/logo-cde-r.png')}}">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -68,7 +68,7 @@
                             } else {
                             ?>
                             <div class="button add-list-button">
-                                <a href="{{url('/insc_en')}}" class="btn" style="background-color: #16e7c4;color:white;border-color: transparent;">Inscription</a>
+                                <a href="{{url('/en/insc')}}" class="btn" style="background-color: #16e7c4;color:white;border-color: transparent;">Inscription</a>
                             </div>
                             <?php
                             }

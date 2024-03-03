@@ -9,7 +9,7 @@
                     <div class="single-footer f-about">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/images/logo/logo-cde.png" alt="#">
+                                <img src="{{asset('assets/images/logo/logo-cde.png')}}" alt="#">
                             </a>
                         </div>
                         <p>Making the world a better place through constructing elegant hierarchies.</p>
@@ -100,12 +100,12 @@
 </a>
 
 <!-- ========================= JS here ========================= -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/tiny-slider.js"></script>
-<script src="assets/js/glightbox.min.js"></script>
-<script src="assets/js/count-up.min.js"></script>
-<script src="assets/js/main1.js"></script>
+<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/js/wow.min.js')}}"></script>
+<script src="{{asset('assets/js/tiny-slider.js')}}"></script>
+<script src="{{asset('assets/js/glightbox.min.js')}}"></script>
+<script src="{{asset('assets/js/count-up.min.js')}}"></script>
+<script src="{{asset('assets/js/main1.js')}}"></script>
 <script type="text/javascript">
 
     //====== counter up 

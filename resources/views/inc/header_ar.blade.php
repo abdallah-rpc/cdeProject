@@ -6,7 +6,7 @@
                     <!-- Start Navbar -->
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand" href="">
-                            <img src="assets/images/logo/logo-cde-r.png">
+                            <img src="{{asset('assets/images/logo/logo-cde-r.png')}}">
                         </a>
                         <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -18,7 +18,7 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a href="index.php">الرئيسية</a>
+                                    <a href="{{url('/ar')}}">الرئيسية</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#features" class="page-scroll"
@@ -53,7 +53,7 @@
                         } else {
                         ?>
                         <div class="button add-list-button">
-                            <a href="{{url('/insc_ar')}}" class="btn" style="background-color: #16e7c4;color:white;border-color: transparent;">التسجيل في المنصة</a>
+                            <a href="{{url('/ar/insc')}}" class="btn" style="background-color: #16e7c4;color:white;border-color: transparent;">التسجيل في المنصة</a>
                         </div>
                         <?php
                         }

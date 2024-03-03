@@ -6,11 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index_ar(){
-       return view('home_ar') ;
+    public function index($lang){
+         $retVal = ($lang == 'ar') ? 'home_ar' : 'home_en' ;
+         return view($retVal) ;
     }
-
-    public function index_en(){
-        return view('home_en') ;
-     }
 }

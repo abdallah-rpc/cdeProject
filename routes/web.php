@@ -48,10 +48,8 @@ Route::get('/', function () {
     return redirect('/ar');
 });
 
-Route::get('/ar', [Controllers\HomeController::class, 'index_ar'])->name('home');
-Route::get('/en', [Controllers\HomeController::class, 'index_en']);
+Route::get('/{lang}', [Controllers\HomeController::class, 'index'])->name('home');
 
 
-Route::get('/insc_ar', [Controllers\InscriptionController::class, 'inscription_ar']);
-Route::get('/insc_en', [Controllers\InscriptionController::class, 'inscription_en']);
+Route::get('/{lang}/insc', [Controllers\InscriptionController::class, 'inscription']);
 

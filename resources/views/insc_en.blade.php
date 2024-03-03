@@ -3,7 +3,7 @@
     {{'Inscription'}}
 @endsection
 @section('body_tag')
-      <body style="background-image: url(assets/images/background.png);">
+      <body style="background-image: url({{asset('assets/images/background.png')}});">
 @endsection
   
     <!--[if lte IE 9]>
@@ -595,8 +595,13 @@ animationSelect.addEventListener('change', () => {
 });
 </script>
 
+<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
+<script src="{{asset('assets/js/jquery-3.4.1.min.js')}}"></script>
+
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+-->
 
 @endsection
 

@@ -3,7 +3,7 @@
     {{'تسجيل'}}
 @endsection
 @section('body_tag')
-     <body style="background-image: url(assets/images/background.png);font-family:Droid Arabic Kufi;">
+     <body style="background-image: url({{asset('assets/images/background.png')}});font-family:Droid Arabic Kufi;">
 @endsection
     <!--[if lte IE 9]>
       <p class="browserupgrade">
@@ -595,8 +595,8 @@ animationSelect.addEventListener('change', () => {
   setAnimationType(newAnimationType);
 });
 </script>
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-<script src="assets/js/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
+<script src="{{asset('assets/js/jquery-3.4.1.min.js')}}"></script>
 
 <!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
