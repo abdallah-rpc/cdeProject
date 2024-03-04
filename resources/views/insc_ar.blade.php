@@ -72,7 +72,7 @@
               <div class="form-row mt-4">
                 <div class="col-12 col-sm-6">
                   <input class="multisteps-form__input1 form-control" type="text"  placeholder="الاسم الأول"/>
-                  {{form::text('name','','',)}}
+                  {{Form::text('name','',['class'=>'multisteps-form__input1 form-control','placeholder'=>'الاسم الأول'])}}
                   
                 </div>
                 <div class="col-12 col-sm-6 mt-4 mt-sm-0">
